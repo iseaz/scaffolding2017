@@ -7,7 +7,8 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin")
 module.exports = {
 	entry: [
 		'./main.js',
-		'./scss/bundle.scss'
+		'./scss/bundle.scss',
+		'./scss/font-awesome/font-awesome.scss'
 	],
 	output: {
 		path: path.resolve(__dirname, 'ecma'),
